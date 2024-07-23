@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "ThaleahFat";
-  src: url("/fonts/ThaleahFat.ttf") format("ttf");
+  src: url("../public/fonts/PixelAE-Bold.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -43,7 +43,7 @@ body {
 .cursor {
   background-color: rgb(255, 255, 255);
   width: 0.25rem;
-  height: 2rem;
+  height: 8rem;
 
   animation: blink 0.5s infinite;
 }

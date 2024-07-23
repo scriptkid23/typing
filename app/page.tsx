@@ -10,13 +10,13 @@ export default function Home() {
     }
   }, []);
   return (
-    <main className="flex p-24 items-center">
+    <main className="flex p-24 h-screen items-center">
       <div
         ref={editableDivRef}
         contentEditable={true}
         className="caret-transparent outline-none"
       />
-      <span className="cursor"></span>
+      <span className="cursor mb-10"></span>
     </main>
   );
 }
